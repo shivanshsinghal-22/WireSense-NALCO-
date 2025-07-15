@@ -17,10 +17,10 @@ st.set_page_config(page_title="Intial Parameter Predictor", layout="centered")
 # ── file locations ────────────────────────────────────────────────────────
 MODEL_DIR = ""         # leave empty if checkpoints live next to this script
 CHECKPOINTS = {
-    "gen_input":  "Models\gen_input.pth.tar",   # 3 → 16 generator
-    "gen_output": "Models\gen_output.pth.tar",  # 16 → 3 generator (unused here)
-    "disc_input": "Models\disc_input.pth.tar",  # (unused)
-    "disc_output":"Models\disc_output.pth.tar", # (unused)
+    "gen_input":  "Models/gen_input.pth.tar",   # 3 → 16 generator
+    "gen_output": "Models/gen_output.pth.tar",  # 16 → 3 generator (unused here)
+    "disc_input": "Models/disc_input.pth.tar",  # (unused)
+    "disc_output":"Models/disc_output.pth.tar", # (unused)
 }
 
 # ── column layout ─────────────────────────────────────────────────────────

@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # ──────────────────── headline & blurb ───────────────────────────────────
-st.title("WireSense – Steel-Mill Toolkit")
+st.title("WireSense – Aluminium-Mill Toolkit")
 st.markdown(
     """
     Welcome to **WireSense**.  
